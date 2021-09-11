@@ -12,6 +12,7 @@ export class BiodataInfoComponent implements OnInit {
   ngOnInit(): void {
     this.newMethod();
   }
+  
   newMethod(){
     return 'Hello';
   }
