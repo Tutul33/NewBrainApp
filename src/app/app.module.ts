@@ -3,12 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NumberTransformPipe } from './shared/number-transform.pipe';
+import { NumberTransformPipe } from './shared/customPipe/number-transform.pipe';
+import { BiodataInfoComponent } from './biodata/biodata-info/biodata-info.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NumberTransformPipe
+    NumberTransformPipe,
+    BiodataInfoComponent
   ],
   imports: [
     BrowserModule,
