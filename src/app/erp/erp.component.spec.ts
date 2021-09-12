@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { BiodataInfoComponent } from './biodata-info.component';
+import { ErpComponent } from './erp.component';
 
-describe('BiodataInfoComponent', () => {
-  let component: BiodataInfoComponent;
-  let fixture: ComponentFixture<BiodataInfoComponent>;
+describe('ErpComponent', () => {
+  let component: ErpComponent;
+  let fixture: ComponentFixture<ErpComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ BiodataInfoComponent ]
+      declarations: [ ErpComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(BiodataInfoComponent);
+    fixture = TestBed.createComponent(ErpComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

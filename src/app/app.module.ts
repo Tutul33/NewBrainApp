@@ -1,22 +1,19 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NumberTransformPipe } from './shared/customPipe/number-transform.pipe';
-import { BiodataInfoComponent } from './biodata/biodata-info/biodata-info.component';
-import { LoginComponent } from './login/login.component';
+import { SidebarModule } from './shared/sidebar/sidebar.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NumberTransformPipe,
-    BiodataInfoComponent,
-    LoginComponent
+    NumberTransformPipe
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    SidebarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
